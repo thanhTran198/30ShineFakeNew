@@ -261,7 +261,7 @@ function Home() {
                     <h3 className={home.bodyTitleFirstTitle}>{introTitle.textTitle}</h3>
                     <p className={home.bodyTitleFirstSubtitle}>{introTitle.subTextTitle}</p>
                 </div>
-                <a href="#" className={introTitle.textAll ? home.bodyTitleAll : home.homeNone}>
+                <a href="" className={introTitle.textAll ? home.bodyTitleAll : home.homeNone}>
                     <p className={home.bodyTitleAllText}>{introTitle.textAll}</p>
                     <i className={home.bodyTitleAllIcon}><FaAngleRight/></i>
                 </a>
@@ -281,8 +281,8 @@ function Home() {
     // tạo ra 4 item nằm ngang
     const FourItem = (experiences)=> {
         return(
-            <ul className={home.bodyList}>
-                    <li className={experiences.mgBt50 ? `${home.bodyItem} ${home.mgBt50}`: `${home.bodyItem}`}>
+            <ul className={experiences.mgBt50 ? `${home.bodyList} ${home.mgBt50}`: `${home.bodyList}`}>
+                    <li className={`${home.bodyItem}`}>
                         <div className={`${home.containerHoverZom} ${home.bodyItemContainerImg}`}>
                             <img className={`${home.hoverZom} ${home.bodyItemImg}`} src={experiences.itemImg1}/>
                         </div>
