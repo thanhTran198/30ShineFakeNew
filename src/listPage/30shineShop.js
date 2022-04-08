@@ -3,7 +3,7 @@ import css from './30shineShop.module.css'
 import Footer from './footer'
 import { AiFillCaretDown, AiOutlineRight, AiFillStar, AiOutlineStar, AiOutlineArrowRight } from "react-icons/ai";
 import { useState, useEffect, useRef } from "react"
-import { FaAngleRight, FaAngleLeft, FaArrowRight } from 'react-icons/fa'
+import { FaAngleRight, FaAngleLeft } from 'react-icons/fa'
 import Contact from './home'
 
 import imgBannerSlider1 from "../asset/imgs/30shineShop/imgsSlider/bannerT0322-1.jpg"

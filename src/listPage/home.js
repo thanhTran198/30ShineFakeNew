@@ -205,8 +205,8 @@ function Home() {
                 clearTimeout(setTimeSlider)
                 setSrcSlider(srcSlider + 1)
                 handleSlider()
-            }else if(command == 'back') {
-                console.log('left')
+            }else if(command == 'left') {
+                console.log('lùi')
                 clearTimeout(setTimeSlider)
                 setSrcSlider(srcSlider - 1)
                 handleSlider()
