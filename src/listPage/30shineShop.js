@@ -119,14 +119,6 @@ function HairStore() {
         )
     }
 
-    // <Products
-    // img = {}
-    // nameProduct = " "
-    // price = " "
-    // oldPrice = ""
-    // star = "0"
-    // />
-
     const Navbar = () => {
         return(
             <div className={css.navbar}>

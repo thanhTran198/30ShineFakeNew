@@ -49,7 +49,7 @@ function App() {
         <div className="navbarCenter">
           <div className="container-logo30shine">
             <Link to="">
-              <img className="logo30shine" src={logo30shine} alt=""/>
+              <img className="logo30shine" src={logo30shine} alt="logo30shine"/>
             </Link>
           </div>
           <ul className="navbar-list">
@@ -70,13 +70,14 @@ function App() {
             </li>
           </ul>
           <div onClick={()=>{return(handaleModalClos())}} className="login-btn">
-            <img className="login-btn-img" src={iconLogin} alt=""/>
+            <img className="login-btn-img" src={iconLogin}/>
             <p className="login-btn--text">ĐĂNG NHẬP</p>
           </div>
         </div>
       </div>
       <Routes>
         <Route path="" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/trai-nghiem-dich-vu" element={<Experience />} />
         <Route path="/hanh-trinh-toa-sang" element={<Shine />} />
         <Route path="/kham-pha-kieu-toc" element={<HairStyle />} />

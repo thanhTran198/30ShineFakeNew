@@ -261,7 +261,7 @@ function Home() {
                     <h3 className={home.bodyTitleFirstTitle}>{introTitle.textTitle}</h3>
                     <p className={home.bodyTitleFirstSubtitle}>{introTitle.subTextTitle}</p>
                 </div>
-                <a href="" className={introTitle.textAll ? home.bodyTitleAll : home.homeNone}>
+                <a href="#" className={introTitle.textAll ? home.bodyTitleAll : home.homeNone}>
                     <p className={home.bodyTitleAllText}>{introTitle.textAll}</p>
                     <i className={home.bodyTitleAllIcon}><FaAngleRight/></i>
                 </a>
