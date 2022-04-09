@@ -76,13 +76,13 @@ function App() {
         </div>
       </div>
       <Routes>
-        <Route path="30ShineFakeNew" element={<Home />} />
-        <Route path="30ShineFakeNew/" element={<Home />} />
-        <Route path="30ShineFakeNew/trai-nghiem-dich-vu" element={<Experience />} />
-        <Route path="30ShineFakeNew/hanh-trinh-toa-sang" element={<Shine />} />
-        <Route path="30ShineFakeNew/kham-pha-kieu-toc" element={<HairStyle />} />
-        <Route path="30ShineFakeNew/30shine-shop" element={<HairStore />} />
-        <Route path="30ShineFakeNew/30shine-gan-nhat" element={<Nearest />} />
+        <Route path="30ShineFakeNew" element={<Home/>} />
+        <Route path="30ShineFakeNew/" element={<Home/>} />
+        <Route path="30ShineFakeNew/trai-nghiem-dich-vu" element={<Experience/>} />
+        <Route path="30ShineFakeNew/hanh-trinh-toa-sang" element={<Shine/>} />
+        <Route path="30ShineFakeNew/kham-pha-kieu-toc" element={<HairStyle/>} />
+        <Route path="30ShineFakeNew/30shine-shop" element={<HairStore/>} />
+        <Route path="30ShineFakeNew/30shine-gan-nhat" element={<Nearest/>} />
       </Routes>
     </div>
   );
